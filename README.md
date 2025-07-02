@@ -1,53 +1,49 @@
-# 📊 DTH Multi-Provider Analytics Project
+#  DTH Multi-Provider Analytics Project
 
-This project performs a data analysis of DTH (Direct-to-Home) service providers in Telangana using Python, Pandas, and visualization libraries.
-
----
-
-## 📁 About the Project
-
-We analyzed data from multiple providers: **TataSky**, **SunDirect**, and **VillageCable**.  
-The goal was to find insights like:
-
-- 📈 Customer churn and complaints
-- 💰 Revenue per customer and package
-- 🌍 Market share and top revenue-generating locations
-- 🎯 Best performing and underperforming regions
+This project analyzes DTH (Direct-to-Home) service providers in Telangana using Python and data visualization tools. The goal is to extract business insights from customer, revenue, and performance data across different providers.
 
 ---
 
-## 📄 Notebook
+##  Project Overview
 
-👉 [Click here to view the Colab notebook](DTH_Multi_Provider_Analytics.ipynb)
+The dataset includes information from key DTH providers such as **Tata Sky**, **Sun Direct**, and **Village Cable**. Through exploratory data analysis, we aimed to uncover patterns related to churn, revenue, service quality, and regional performance.
 
----
+### Key Objectives:
 
-## 📊 Key Charts & Insights
-
-- Average churn and complaints by provider
-- Revenue breakdown by package and district
-- Heatmap of complaints across districts
-- Overall performance score per provider
+-  Analyze **customer churn** and **complaint volume**
+-  Compare **revenue per user** and **subscription packages**
+-  Understand **market share** and **high-value districts**
+-  Identify **top-performing** and **underperforming** regions
 
 ---
 
-## 🛠️ Tools Used
+##  Notebook
 
-- Python  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- Google Colab  
+Access the full Colab notebook with code and charts:  
+👉 [`Click here to view the Colab notebook`](DTH_Multi_Provider_Analytics.ipynb)
 
 ---
 
-## ✅ Conclusion
+##  Charts & Insights
 
-This project helps in understanding customer behavior, service quality, and revenue trends in the DTH industry. It can be useful for business decisions, marketing, and customer retention strategies.
+- Bar chart of **average churn and complaints** by provider  
+- District-wise **revenue breakdown** by provider and package  
+- **Heatmap of complaints** across regions  
+- **Performance scorecard** comparing all providers  
 
 ---
 
-## 📌 Author
+##  Tools & Libraries
 
-Created by **[S.Vijayendra Varma]**  
-Feel free to connect or share feedback!
+- Python (Google Colab)  
+- Pandas for data manipulation  
+- Matplotlib & Seaborn for visualization  
+
+---
+
+##  Conclusion
+
+This project provides actionable insights into the **DTH service landscape in Telangana**. It highlights trends in **customer behavior**, **regional performance**, and **revenue distribution**, which can support **marketing strategies**, **customer retention**, and **business planning**.
+
+
+---
