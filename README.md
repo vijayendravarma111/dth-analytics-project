@@ -1,49 +1,126 @@
-#  DTH Multi-Provider Analytics Project
+# DTH Multi-Provider Analytics Project
 
-This project analyzes DTH (Direct-to-Home) service providers in Telangana using Python and data visualization tools. The goal is to extract business insights from customer, revenue, and performance data across different providers.
+## Overview
 
----
+This project analyzes DTH (Direct-to-Home) service providers in Telangana to understand customer behavior, revenue patterns, and service performance.
 
-##  Project Overview
-
-The dataset includes information from key DTH providers such as **Tata Sky**, **Sun Direct**, and **Village Cable**. Through exploratory data analysis, we aimed to uncover patterns related to churn, revenue, service quality, and regional performance.
-
-### Key Objectives:
-
--  Analyze **customer churn** and **complaint volume**
--  Compare **revenue per user** and **subscription packages**
--  Understand **market share** and **high-value districts**
--  Identify **top-performing** and **underperforming** regions
+The goal is to extract meaningful insights from the data and identify areas where providers can improve customer retention and overall performance.
 
 ---
 
-##  Notebook
+## Problem
 
-Access the full Colab notebook with code and charts:  
-👉 [`Click here to view the Colab notebook`](DTH_Multi_Provider_Analytics.ipynb)
+DTH providers often face challenges like:
 
----
+- Customer churn  
+- High complaint rates  
+- Uneven revenue distribution  
+- Regional performance differences  
 
-##  Charts & Insights
-
-- Bar chart of **average churn and complaints** by provider  
-- District-wise **revenue breakdown** by provider and package  
-- **Heatmap of complaints** across regions  
-- **Performance scorecard** comparing all providers  
+Without proper analysis, it becomes difficult to take the right business decisions.
 
 ---
 
-##  Tools & Libraries
+## Dataset
+
+The dataset includes data from multiple DTH providers such as:
+
+- Tata Sky  
+- Sun Direct  
+- Village Cable  
+
+It contains information related to:
+
+- Customer subscriptions  
+- Revenue and packages  
+- Complaints and churn  
+- District-level performance  
+
+---
+
+## Approach
+
+The project follows a structured analysis process:
+
+1. Data cleaning and preprocessing  
+2. Exploratory data analysis  
+3. Comparison across providers  
+4. Regional and district-level analysis  
+5. Visualization of key metrics  
+
+---
+
+## Key Analysis
+
+- Customer churn patterns across providers  
+- Complaint trends and service quality  
+- Revenue comparison between providers  
+- District-wise performance breakdown  
+- Package-level contribution to revenue  
+
+---
+
+## Visualizations
+
+The notebook includes:
+
+- Bar charts for churn and complaints  
+- District-wise revenue comparisons  
+- Heatmaps for complaint distribution  
+- Provider performance scorecards  
+
+---
+
+## Key Insights
+
+- Certain providers show higher churn rates due to service issues  
+- Complaint volume directly impacts customer retention  
+- Revenue is concentrated in a few high-performing districts  
+- Some regions are underperforming despite high potential  
+- Package pricing plays a major role in revenue generation  
+
+---
+
+## Tools Used
 
 - Python (Google Colab)  
-- Pandas for data manipulation  
-- Matplotlib & Seaborn for visualization  
+- Pandas for data analysis  
+- Matplotlib and Seaborn for visualization  
 
 ---
 
-##  Conclusion
+## Notebook
 
-This project provides actionable insights into the **DTH service landscape in Telangana**. It highlights trends in **customer behavior**, **regional performance**, and **revenue distribution**, which can support **marketing strategies**, **customer retention**, and **business planning**.
+You can view the complete analysis here:
 
+DTH_Multi_Provider_Analytics.ipynb
 
 ---
+
+## Project Structure
+
+``` id="dth82p"
+DTH-Multi-Provider-Analytics/
+│
+├── DTH_Multi_Provider_Analytics.ipynb
+├── README.md
+```
+
+## Use Cases
+
+Telecom and DTH service analysis
+Customer churn analysis
+Regional business performance tracking
+Data analysis portfolio project
+
+## Key Learnings
+
+Working with real-world business datasets
+Understanding customer churn behavior
+Comparing multiple entities using data
+Building clear and simple visualizations
+Extracting business insights from raw data
+
+## Conclusion
+
+This project provides a clear view of the DTH service landscape in Telangana. It highlights customer behavior, regional trends, and revenue patterns, helping businesses make better decisions based on data.
